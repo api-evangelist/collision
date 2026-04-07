@@ -1,16 +1,14 @@
 aid: collision
-url: 
-  https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml
 apis: []
 name: Collision
 tags:
   - Conferences
   - Events
-  - Technology
   - Startups
+  - Technology
 type: Index
-image: 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://collisionconf.com/
