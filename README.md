@@ -1,8 +1,8 @@
 # Collision (collision)
 
-Collision (https://collisionconf.com/) is a major annual tech conference organized by Web Summit, held in Toronto, Canada. Known as the "Olympics of Tech," Collision brings together over 40,000 attendees from 130+ countries, 800+ speakers, 2,000+ startups, and 1,000+ investors across four days of keynotes, panels, workshops, and networking events. The conference focuses on the intersection of technology, startups, and investment, covering topics ranging from AI and enterprise software to climate tech and web development. Collision is widely regarded as one of North America's premier gathering points for founders, venture capitalists, enterprise leaders, and developers shaping the global tech industry.
+Collision was the major annual North American technology conference organized by Web Summit, held in Toronto from 2019 through 2024 and widely dubbed the "Olympics of Tech." Beginning in 2025, the event was relocated to the Vancouver Convention Centre and rebranded as Web Summit Vancouver, aligning with the global Web Summit family (Lisbon, Rio, Doha, Qatar). Web Summit Vancouver is contracted through at least 2027 and was held May 27-30, 2025; Web Summit Vancouver 2026 is scheduled for May 11-14, 2026. The Collision brand is retired but this profile is preserved for historical reference. Collision/Web Summit does not publish a public developer REST API; the conference operates speaker, partner, attendee, and press portals.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml)
 
 ## Scope
 
@@ -10,30 +10,43 @@ Collision (https://collisionconf.com/) is a major annual tech conference organiz
 - **Position:** Consuming
 - **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Conferences, Events, Technology, Startups
+- Conferences
+- Events
+- Historical
+- Rebrand
+- Startups
+- Technology
+- Web Summit
 
 ## Timestamps
 
 - **Created:** 2026-03-24
-- **Modified:** 2026-03-24
+- **Modified:** 2026-04-28
+
+## APIs
+
+No public developer APIs are published by Collision or Web Summit Vancouver. Speaker, partner, and attendee data is exchanged through dedicated authenticated portals.
 
 ## Common Properties
 
-- [Website](https://collisionconf.com/)
+- [Web Summit Vancouver (Successor)](https://vancouver.websummit.com/)
+- [Collision (Historical)](https://collisionconf.com/)
+- [Web Summit Global](https://websummit.com/)
+- [Rebrand Announcement](https://websummit.com/blog/news/web-summit-vancouver-collision-toronto/)
 - [Blog](https://collisionconf.com/blog)
-- [Newsletter](https://collisionconf.com/newsletter-signup)
-- [PrivacyPolicy](https://collisionconf.com/privacy)
+- [Newsletter Signup](https://collisionconf.com/newsletter-signup)
+- [Privacy Policy](https://collisionconf.com/privacy)
 - [Support](https://support.collisionconf.com/support/home)
-- [Portal](https://speakers.collisionconf.com/)
-- [Portal](https://partners.collisionconf.com/)
-- [X](https://x.com/collisionconf)
-- [LinkedIn](https://www.linkedin.com/company/collision/)
-- [Facebook](https://www.facebook.com/collisionconf/)
+- [Speakers Portal](https://speakers.collisionconf.com/)
+- [Partners Portal](https://partners.collisionconf.com/)
+- [Collision on X](https://x.com/collisionconf)
+- [Collision on LinkedIn](https://www.linkedin.com/company/collision/)
+- [Collision on Facebook](https://www.facebook.com/collisionconf/)
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
-**Email:** info@apievangelist.com
+**Email:** kin@apievangelist.com
