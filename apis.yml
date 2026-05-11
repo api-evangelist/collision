@@ -68,6 +68,10 @@ common:
   - url: https://www.facebook.com/collisionconf/
     name: Collision on Facebook
     type: Facebook
+  - type: Integrations
+    url: https://vancouver.websummit.com/partners/
+integrations:
+  - name: Meet our exhibitors
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
