@@ -29,6 +29,8 @@ description: >-
   conference operates speaker, partner, attendee, and press portals.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/collision-domain-security.yml
   - url: https://vancouver.websummit.com/
     name: Web Summit Vancouver (Successor)
     type: Website
