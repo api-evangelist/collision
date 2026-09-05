@@ -1,0 +1,38 @@
+# Collision (now Web Summit Vancouver)
+
+> Collision was Web Summit's North American technology conference, held in Toronto from 2019 through 2024 and often called the "Olympics of Tech". From 2025 the event moved to the Vancouver Convention Centre and was rebranded **Web Summit Vancouver**; the 2025 edition ran May 27-30, 2025, the 2026 edition May 11-14, 2026, and the 2027 edition is scheduled for May 25-28, 2027. The Collision brand is retired: every path on `collisionconf.com` (including `www.`, `speakers.` and `partners.`) now answers HTTP 301 and redirects to `https://vancouver.websummit.com/`. This profile is preserved for historical reference and tracks the successor event.
+
+**There is no public developer API.** Web Summit Vancouver publishes no OpenAPI, AsyncAPI, GraphQL SDL, Postman collection, MCP server, agent card, or `/.well-known/` discovery document on any host associated with the event (probed 2026-09-05: `collisionconf.com`, `www.collisionconf.com`, `speakers.collisionconf.com`, `partners.collisionconf.com`, `vancouver.websummit.com`, `websummit.com`, `about.websummit.com`, `api.websummit.com`, `attend.websummit.com`, `support-vancouver.websummit.com`). The site's `/developers/` page is a **discounted-ticket offer for software developers who want to attend**, not a developer program — do not read it as an API portal. The attendee platform at `attend.websummit.com` and the internal host `api.websummit.com` are login-only end-user surfaces; `robots.txt` on the event sites disallows `/api/`, which this profile honors.
+
+## The event
+- [Web Summit Vancouver](https://vancouver.websummit.com/): Home of the successor event to Collision — dates, venue, tracks, and attendance.
+- [Collision (historical)](https://collisionconf.com/): The retired Collision brand; the domain now redirects wholesale to Web Summit Vancouver.
+- [Web Summit (parent)](https://websummit.com/): The parent organiser, which also runs Web Summit Lisbon, Web Summit Rio, Web Summit Qatar and RISE.
+- [Rebrand announcement](https://vancouver.websummit.com/blog/news/web-summit-vancouver-collision-toronto/): The announcement that Web Summit Vancouver succeeds Collision Toronto.
+- [Web Summit's own software](https://about.websummit.com/our-software/): The proprietary event platform Web Summit builds and runs its events on. It is not sold or documented as an API product.
+
+## Attending
+- [About tickets](https://vancouver.websummit.com/essentials/tickets/): Ticket information for Web Summit Vancouver. Prices are rendered client-side and are not published in a machine-readable form.
+- [Attendee platform](https://attend.websummit.com/van27): Login-only attendee platform for scheduling, networking and meetings.
+- [FAQ](https://vancouver.websummit.com/faq/): Frequently asked questions about the event.
+- [Developer ticket program](https://vancouver.websummit.com/developers/): Application form for a discounted ticket for developers. A ticket offer, not an API program.
+- [Support centre](https://support-vancouver.websummit.com/hc/en-us): Zendesk help centre for attendees, exhibitors and partners.
+- [Newsletter](https://vancouver.websummit.com/newsletter/): Event newsletter signup.
+
+## Programs
+- [Speakers](https://vancouver.websummit.com/speakers/): The speaker lineup for the event.
+- [Startups](https://vancouver.websummit.com/startups/): The startup program — ALPHA/BETA exhibition, PITCH, Impact Startups, Startup Showcase.
+- [Investors](https://vancouver.websummit.com/investors/): Investor attendance and accreditation.
+- [Partners](https://vancouver.websummit.com/partners/): Partner and exhibitor programs.
+- [Media](https://vancouver.websummit.com/media/): Press accreditation.
+- [Blog](https://vancouver.websummit.com/blog/): Event news, speaker, startup, community and partner posts, including the archived Collision-era coverage.
+
+## Policies
+- [Terms and conditions](https://vancouver.websummit.com/terms-and-conditions/)
+- [Privacy policy](https://vancouver.websummit.com/privacy/)
+- [Cookie policy](https://vancouver.websummit.com/cookie-policy/)
+
+## Notes for agents
+- Nothing here is callable. There is no base URL, no authentication scheme, no rate-limit signal, and no error contract, because there is no published API.
+- Do not attribute `https://websummit.com/llms.txt` to this record. That document exists (HTTP 200, ~13KB) but describes **Web Summit Lisbon** and belongs to the parent organisation, profiled separately as `web-summit`. `https://vancouver.websummit.com/llms.txt` answers HTTP 200 with a zero-byte body — a served path, not a document.
+- This file was written by API Evangelist from the provider's public pages, not published by Web Summit.

@@ -44,7 +44,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/collision.png
 access: 3rd-Party
 created: '2026-03-24'
-modified: '2026-04-28'
+modified: '2026-09-05'
 position: Consuming
 description: >-
   Collision was the major annual North American technology conference organized
@@ -70,27 +70,21 @@ common:
   - url: https://websummit.com/
     name: Web Summit Global
     type: Parent
-  - url: https://websummit.com/blog/news/web-summit-vancouver-collision-toronto/
+  - url: https://vancouver.websummit.com/blog/news/web-summit-vancouver-collision-toronto/
     name: Rebrand Announcement
     type: News
-  - url: https://collisionconf.com/blog
+  - url: https://vancouver.websummit.com/blog/
     name: Blog
     type: Blog
-  - url: https://collisionconf.com/newsletter-signup
+  - url: https://vancouver.websummit.com/newsletter/
     name: Newsletter Signup
     type: Newsletter
-  - url: https://collisionconf.com/privacy
+  - url: https://vancouver.websummit.com/privacy/
     name: Privacy Policy
     type: PrivacyPolicy
-  - url: https://support.collisionconf.com/support/home
-    name: Support
+  - url: https://support-vancouver.websummit.com/hc/en-us
+    name: Support Centre
     type: Support
-  - url: https://speakers.collisionconf.com/
-    name: Speakers Portal
-    type: Portal
-  - url: https://partners.collisionconf.com/
-    name: Partners Portal
-    type: Portal
   - url: https://x.com/collisionconf
     name: Collision on X (Twitter)
     type: X
@@ -102,9 +96,44 @@ common:
     type: Facebook
   - type: Integrations
     url: https://vancouver.websummit.com/partners/
+  - url: https://vancouver.websummit.com/terms-and-conditions/
+    name: Terms and Conditions
+    type: TermsOfService
+  - type: LLMsTxt
+    url: llms/collision-llms.txt
+  - type: Plans
+    url: plans/collision-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/collision-rate-limits.yml
 integrations:
   - name: Meet our exhibitors
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 specificationVersion: '0.23'
+
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    collisionconf.com 301s its entire path space to vancouver.websummit.com, and the successor
+    site's only /developers/ page is an application for a discounted attendee ticket — ten hosts
+    were probed for a spec, a GraphQL endpoint, an MCP server, an agent card or any
+    /.well-known/ document and every one returned 404 or a redirect.
+  evidence:
+    - url: https://vancouver.websummit.com/developers/
+      status: 200
+    - url: https://api.websummit.com/openapi.json
+      status: 404
+    - url: https://attend.websummit.com/openapi.json
+      status: 404
+    - url: https://vancouver.websummit.com/.well-known/api-catalog
+      status: 404
+    - url: https://collisionconf.com/openapi.json
+      status: 301
+  checked: '2026-09-05'

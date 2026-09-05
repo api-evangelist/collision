@@ -1,0 +1,50 @@
+generated: '2026-09-05'
+method: searched
+source: https://vancouver.websummit.com/essentials/tickets/
+provider: Collision (now Web Summit Vancouver)
+providerId: collision
+plan_count: 0
+api_plan_count: 0
+subject: event-tickets
+description: >-
+  IMPORTANT FOR ANY READER SCORING THIS RECORD: Collision / Web Summit Vancouver sells EVENT TICKETS,
+  not API access. There is no API product, no developer plan, no free developer tier, no metered
+  pricing and no key that could be billed, so api_plan_count is 0. plan_count is also 0 because the
+  event's own ticket prices are not published in any readable form either: the tickets page
+  (https://vancouver.websummit.com/essentials/tickets/, HTTP 200) renders its tier and price table
+  client-side, so the served HTML contains no prices, and the general-attendee ticket URL
+  (https://vancouver.websummit.com/tickets/attendees/) redirects to a rotating "2-for-1" promotion
+  page rather than a price list. Ticket tiers do exist as a commercial product — attendee, group,
+  investor, startup, media and a discounted developer ticket — but no figure was fetched, so none is
+  recorded. This is a measured zero, not an unchecked field.
+plans: []
+tiers_named_but_unpriced:
+  - name: General attendee
+    url: https://vancouver.websummit.com/essentials/tickets/
+  - name: Group offers
+    url: https://vancouver.websummit.com/essentials/tickets/
+  - name: Investor
+    url: https://vancouver.websummit.com/investors/
+  - name: Startup (ALPHA / BETA)
+    url: https://vancouver.websummit.com/startups/
+  - name: Media / press accreditation
+    url: https://vancouver.websummit.com/media/
+  - name: Developer (discounted attendee ticket, application only)
+    url: https://vancouver.websummit.com/developers/
+enterprise:
+  contact_only: true
+  note: >-
+    Partner, exhibitor and sponsorship packages are quoted through the partners contact form
+    (https://vancouver.websummit.com/partners/) and are never listed with a price.
+x-evidence:
+  fetched: '2026-09-05'
+  probes:
+    - url: https://vancouver.websummit.com/essentials/tickets/
+      status: 200
+      note: 200 but the tier/price table is client-rendered; served HTML carries no prices.
+    - url: https://vancouver.websummit.com/tickets/attendees/
+      status: 200
+      note: Redirects to https://vancouver.websummit.com/2-for-1/ — a promotion, not a price list.
+    - url: https://vancouver.websummit.com/developers/
+      status: 200
+      note: A discounted-ticket application for developers. NOT an API plan or developer program.

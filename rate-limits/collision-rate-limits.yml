@@ -1,0 +1,50 @@
+generated: '2026-09-05'
+method: searched
+source: https://vancouver.websummit.com/
+provider: Collision (now Web Summit Vancouver)
+providerId: collision
+limit_count: 0
+description: >-
+  Collision / Web Summit Vancouver publishes no rate limits, because it publishes no API. There is no
+  developer documentation in which a limit could be stated, no base URL an agent could pace itself
+  against, and no key to which a quota could attach. This is an honest zero recorded after probing
+  ten hosts for a contract or discovery document on 2026-09-05, not an unchecked field. The event
+  sites' robots.txt disallows /api/ on both vancouver.websummit.com and websummit.com, which this
+  profile honors — no limit was observed there because no request was made there.
+limits: []
+response_headers:
+  observed: []
+  checked_for:
+    - RateLimit-Limit
+    - RateLimit-Remaining
+    - RateLimit-Reset
+    - X-RateLimit-Limit
+    - X-RateLimit-Remaining
+    - X-RateLimit-Reset
+    - Retry-After
+  note: >-
+    None of the seven headers appeared on any response from the public marketing hosts or from
+    api.websummit.com / attend.websummit.com. An agent gets no runtime signal of any kind.
+exhaustion_status: null
+enforcement:
+  documented: false
+  inferred: >-
+    All event hosts sit behind Cloudflare, and support-vancouver.websummit.com answered a Cloudflare
+    managed-challenge interstitial (HTTP 403, "Just a moment...") to an ordinary browser user agent.
+    Edge bot management is therefore certainly in force, but it is an edge policy rather than a
+    published API rate limit. Recorded as inference, explicitly not as a published limit.
+x-evidence:
+  fetched: '2026-09-05'
+  probes:
+    - url: https://api.websummit.com/openapi.json
+      status: 404
+      rate_limit_headers: none
+    - url: https://attend.websummit.com/openapi.json
+      status: 404
+      rate_limit_headers: none
+    - url: https://vancouver.websummit.com/robots.txt
+      status: 200
+      note: 'Disallow: /api/ — honored, not probed.'
+    - url: https://support.collisionconf.com/support/home
+      status: 403
+      note: Cloudflare managed challenge on the redirected support-vancouver.websummit.com help centre.
