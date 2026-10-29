@@ -1,4 +1,4 @@
-# Collision (collision)
+# Collision (now Web Summit Vancouver)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,51 +66,93 @@
 
 Collision was the major annual North American technology conference organized by Web Summit, held in Toronto from 2019 through 2024 and widely dubbed the "Olympics of Tech." Beginning in 2025, the event was relocated to the Vancouver Convention Centre and rebranded as Web Summit Vancouver, aligning with the global Web Summit family (Lisbon, Rio, Doha, Qatar). Web Summit Vancouver is contracted through at least 2027 and was held May 27-30, 2025; Web Summit Vancouver 2026 is scheduled for May 11-14, 2026. The Collision brand is retired but this profile is preserved for historical reference. Collision/Web Summit does not publish a public developer REST API; the conference operates speaker, partner, attendee, and press portals.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/collision/refs/heads/main/apis.yml)
+**Areas:** Conferences · Event · Historical · Rebrand · Startups · Technology · Web Summit
 
-## Scope
+## Collision (now Web Summit Vancouver) on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Collision (now Web Summit Vancouver) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/collision/](https://apis.io/providers/collision/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Conferences
-- Events
-- Historical
-- Rebrand
-- Startups
-- Technology
-- Web Summit
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Collision Domain Security](https://apis.io/security/collision/collision-domain-security/)
 
-No public developer APIs are published by Collision or Web Summit Vancouver. Speaker, partner, and attendee data is exchanged through dedicated authenticated portals.
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
 
-- [Web Summit Vancouver (Successor)](https://vancouver.websummit.com/)
-- [Collision (Historical)](https://collisionconf.com/)
-- [Web Summit Global](https://websummit.com/)
-- [Rebrand Announcement](https://websummit.com/blog/news/web-summit-vancouver-collision-toronto/)
-- [Blog](https://collisionconf.com/blog)
-- [Newsletter Signup](https://collisionconf.com/newsletter-signup)
-- [Privacy Policy](https://collisionconf.com/privacy)
-- [Support](https://support.collisionconf.com/support/home)
-- [Speakers Portal](https://speakers.collisionconf.com/)
-- [Partners Portal](https://partners.collisionconf.com/)
-- [Collision on X](https://x.com/collisionconf)
-- [Collision on LinkedIn](https://www.linkedin.com/company/collision/)
-- [Collision on Facebook](https://www.facebook.com/collisionconf/)
+- [Collision Plans Pricing](https://apis.io/plans/collision/collision-plans-pricing/)
 
-## Maintainers
+#### Rate limits (1)
 
-**FN:** Kin Lane
+Published request limits.
 
-**Email:** kin@apievangelist.com
+- [Collision Rate Limits](https://apis.io/rate-limits/collision/collision-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://vancouver.websummit.com/)
+- [Support](https://support-vancouver.websummit.com/hc/en-us)
+- [Blog](https://vancouver.websummit.com/blog/)
+- [Terms of service](https://vancouver.websummit.com/terms-and-conditions/)
+- [Privacy policy](https://vancouver.websummit.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/collision/](https://apis.io/providers/collision/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Collision (now Web Summit Vancouver): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/collision/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
